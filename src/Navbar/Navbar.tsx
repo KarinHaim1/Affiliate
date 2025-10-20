@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
-      <h1 className="logo">Affiliate Compare</h1>
+      <img src="logo" alt="logo" />
       <div className="nav-links">
         <Link to="/">בית</Link>
         <Link to="/category/clothes">בגדים</Link>
